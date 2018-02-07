@@ -1,0 +1,34 @@
+---
+title: Jargon
+---
+
+## Every trade has its jargon. This was the lingo used in a hot metal composing room
+#
+Back Bench: In Parliament, a back-bencher is a minor player. On newspapers, the Back Bench is where the senior editors work.  
+Black: A duplicate. From the days of carbon paper. Not to be confused with copy - see below.  
+Block: Anything in a page which wasn't type. Pictures and adverts were engraved on sheets of metal and mounted on metal blocks to bring them to the same height as the type.  
+Case: A cabinet holding the matrices of typefaces in drawers, often drawers at a 45 degree angle, to make it easier for a casehand to pick out and return matrices. In the beginning, capital letters were in an upper case and small letters were in a lower case.  
+Catchline: The name given to a story to identify it and all the headlines, captions and other bits of type which go with it.  
+Chase: The oblong metal frame in which a page of type was made up. Two adjacent sides had clamps which could be screwed or levered inward to hold the type.  
+Composing room: The area in which type was set and pages were made up, where both were proofed and where, finally, a flong was made from a page, ready for casting into a plate.  
+Copy: The stories and headlines written and sub-edited by journalists.  
+Copy paper: Newsprint, cut into strips for galley proofs, into pad-size for sub-editors to scribble on, into page size for page proofs. Used throughout the newspaper because it was cheaper to cut up the ends of reels of newsprint than to buy paper from a stationery supplier.  
+Flong: A hot metal page was flat. A printing plate for a press was semi-cylindrical. The interface between the two was a flong, a sheet of flexible resin, which was placed on top of the hot metal page and squeezed on to it by a powerful hydraulic press, thus taking a positive impression of the negative type. The flong was then sent to the foundry where it was used to provide the curved mould for a press plate. Several flongs could be produced from one hot metal page. Some were sent from London offices to Manchester or Glasgow to allow those offices to print London pages without having to set all the type again.  
+Galley: Metal tray, of various lengths and widths, for carrying type around. They had a lever lock at one end to keep the type from falling out.  
+Inkies: Usually given a rude adjective. Anyone who handled type in the composing room. As opposed to stone subs, who were forbidden to touch type. Their hands were equally inky because they handled proofs, but they were never inkies.  
+Intro: The first paragraph of a story. The attention span of the average newspaper reader means you have a few seconds in which to persuade him to read your story. The headline is your main weapon. The intro has to be good enough to make Joe Reader carry on to the smaller type.  
+Linotype: An automated typesetting machine which fetched a matrix when the operator pressed a key, set a line when the operator had manually justified it, and returned the matrices to their correct positions at the end. Monotype made a more efficient machine. 
+Matrix, matrices: Moulds for type into which hot metal could be cast.  
+Pig: The ingot of metal which hung on a chain on a Linotype machine, with its end melting in an electrically-heated pot. The hot metal thus produced was injected into the matrices assembled by the operator to create a line of type.  
+Proof: A paper printout of the type, either a galley proof or a page proof, usually made on damp copy paper. Glossy paper was used if the type was to be sent to the process engraving department to be turned into a picture.  
+Random: The clearing house. Type came into the random from Lino and case. Proofs were taken and sent to the readers. Type was collated and taken to the page on the stone.  
+Reading room: Usually separate from the noisy composing room. Where copyholders read the subs' copy and readers corrected the proofs.  
+Rule: Vertical or horizontal line dividing sections of a newspaper page. Made by an Elrod machine which chugged away for hours, casting type-high lengths of metal. Rules would be cut on a lever cutter and mitred on a mitring wheel to produce right-angle corners.  
+There was a story, in one office, of a maintenance man called Hitler the fitter because he had a small moustache, who made an attachment for the Elrod machine which would chip potatoes for the canteen. It is probably a myth, but it demonstrates the ingenuity of the engineers who kept all the machines needed to produce a hot metal newspaper in working order in spite of the busy, angry people who used them.  
+Slating: Lino operators were paid for how much type they set. If the sub-editors were slow and the pile of copy available to be picked up ran out, Lino operators logged this, on a slate originally, but later on paper. In the labyrinthine agreements there must have been some payments for time spent waiting for copy to turn up. Chief subs would be phoned by the Lino overseer and told: ‘We're slating'. Time logged on the slate could also be used to defend the Composing room next day when Editorial said the paper was late because of the f---ing inkies.  
+Stick: Short frame held in the hand by a casehand in which the matrices from a case would be assembled before being cast.  
+Stone: Waist-high, smooth top bench on which pages were made up. Also used to describe the area where the stone sub worked: ‘He's on the stone'.  
+Take: Part of a story. In the editorial arena, reporters would be told to deliver a running story ‘in short takes' write three paragraphs, send them to the News Desk, write three more and so on. These would be subbed on the run, too. In the composing room, stories were split up and takes given to several Lino operators to speed up setting. Takes were collated into complete stories on the random.  
+Typeface: A font (originally fount) of type in a particular style. Ariel and Times Roman are typefaces. In hot metal, you bought a typeface which had a certain number of letters and numbers in each size.  
+WOB and BOT: A white on black or black on tone headline. This was an amazingly complex operation in hot metal. The type had to be set as an ordinary headline, proofed on glossy paper, read and corrected by the readers, sent to the process engraving department to be produced in metal like a picture and mounted on a block. This all took so long that sub-editors were told to write WOBs and BOTs before anything else.  
+Mike Carr, a brilliant Daily Mail Chief sub, once wrote a hilarious exam paper for subs. One question asked: ‘There are two stories on page 1 with a linking WOB between them. The Night Editor doesn't know what either of the stories is yet, but he wants the WOB written now.  What do you write?'

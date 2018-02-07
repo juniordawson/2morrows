@@ -1,0 +1,16 @@
+---
+title: Writing
+---
+
+In the 1960s and 70s, writers used typewriters, notebooks and telephone boxes.  
+At the Daily Mail, reporters wrote on typewriters, initially using carbon paper to make a copy, but later multi-part paper which made several copies. They had wonderful mechanical desks which had a typewriter on a platform under the desk which could be raised to the desktop by pushing a button.  
+Copy was moved around the office by copy boys - usually old men - and put in wire baskets for people to read. Reporters delivered their copy to the News Desk who then gave it to the Back Bench - the senior editors - who decided what to use and how to use it.  
+Out of the office, a reporter would have to find a smelly phone box, hope that it was in working order and dictate her story straight from her notebook to a copytaker sitting at a typewriter in the office.  
+For a sports writer, covering a live event, life was even more difficult. Most towns ran football papers which had to be on the streets for the fans streaming out of matches. Reporters had to write their match report in sections and phone each section to the office so that it could be set in type. The description of the first half would be in type before the second half had started.  
+Photographers also had to get plates or film back from the event to the office. Both they and the reporters often used runners - youngsters whose job it was to get the words or the pictures to the office while the principals stayed with the action.  
+Photographers could not phone their pictures to copytakers, but in the office, there were wire machines which could scan a photo on a drum and transmit the image over phone lines to a receiving drum in another office.  
+The Tandy 200, which came out in 1984, took reporters into the new world. It was a simple laptop, powered by four AA batteries, on which you could type and save stories. And it could transmit them if you plugged in a coupler and clamped it over the handset of a telephone.  
+At that stage, few newspapers had the kit needed to receive such transmissions, but in the UK, the telecomms market was being deregulated and Mercury, one of the new entrants, set up a service to receive stories sent with a simple address and deliver them to newspapers in the same way that wire services were being delivered.  
+The advantage to a staff reporter was clear. To a freelance journalist it was enormous. Instead of spending hours in a freezing phone box, dictating his story first to the Mail, then to the Express, then to the Mirror, all he had to do was address his copy to the three newspapers, plug in his couplers, wait for the ready tone and hit Return. Then shoot off to the pub to warm up.  
+Photographers had to wait until the 1990s before they could transmit their pictures. At first, they had to transmit their pictures via satellite, but rapidly the cameras, the laptops and the transmission got better and cheaper.  
+Now, writers and photographers use laptops and e-mail or upload their stuff wherever it needs to go.

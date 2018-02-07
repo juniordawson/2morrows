@@ -1,0 +1,16 @@
+/* Mixins
+  =============== */
+
+// Media query for mobile first layout 
+@mixin small-breakpoint {
+	@media only screen and (min-width: #{$mobile}) {
+		@content;
+	}
+}
+
+// Break on desktop
+@mixin large-breakpoint {
+	@media only screen and (min-width: #{$desktop}) {
+		@content;
+	}
+} 

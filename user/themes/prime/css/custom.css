@@ -1,0 +1,35 @@
+img { max-width: 100%; }
+
+.ta-c { text-align: center; }
+
+.listing {
+
+}
+
+.listing h3 {
+
+}
+
+.listing img {
+	width: 100%;
+	max-width: 100%;
+}
+
+
+.listing .listing-img-link {
+	width: 100%;
+
+	max-width: 100%;
+
+
+	min-height: 170px;
+	max-height: 170px;
+	overflow: hidden;
+	
+	display: block;
+
+	background-repeat: no-repeat;
+	background-position-x: center; 
+	background-position-y: 0; 
+	background-size: cover;
+}

@@ -1,0 +1,62 @@
+{% extends "partials/base.html.twig" %}
+
+    {% set default_collection = page.collection.visible %}
+
+    {% set hero_image = page.media.images|first %}
+
+    {% block content %}
+        <!--header class="text-center content-section background-img colored-background" style="background-image:url({{hero_image.url}})">
+            <div class="small-container">
+              <h1>
+                    {% set parentTitle = page.parent.title %}
+                    {% if parentTitle == "Pages" %}
+
+                    {% else %}
+                        <a href="{{page.parent.url}}">{{page.parent.title}}</a> / 
+                    {% endif %}
+                    <a href="{{page.url}}">{{page.title}}</a>
+                </h1>
+            </div>
+        </header-->
+
+
+        <section class="content-section">
+            <div class="medium-container padding-bottom">
+
+                {% if default_collection | length %}
+
+                    <div class=" listing-container">
+
+                        {% for page in default_collection %}
+
+                            <div class="column-33 listing">
+
+                                <a href="{{page.url}}" class="listing-img-link" style="background-image: url({{page.media.images|first.url()}});">
+                                    {% set listImg = page.media.images %}
+
+                                    {% if listImg == false %}
+                                        <img src="/user/pages/images/default-img.gif" />
+                                    {% else %}
+
+                                        <img src="/user/pages/images/blank.gif" />
+
+                                    {% endif %}
+                                </a>
+                                
+                                <h3 class="mt-025"><a href="{{page.url}}">{{page.title}}</a></h3>
+                            </div>
+
+                        {% endfor %}
+
+                    </div>
+
+                {% endif %}
+
+
+                <div class="pl-colpad pr-colpad">
+                    {{page.content}}
+                </div>  
+                
+            </div>
+        </section>
+    {% endblock %}
