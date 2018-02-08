@@ -80,7 +80,7 @@
                 {% endif %}
             </a>
 
-            <h3 class="mt-025"><a href="{{p.url}}">{{p.title}}</a></h3>
+            <h3 class="mt-025"><a href="{{p.url}}">{{p.title}}</a> <small>({{p.children.count()}})</small></h3>
         </div>
     {% endfor %}   
 
