@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1518092052,
-    'checksum' => '221ad58c8029d5cb38185586485b3c88',
+    'timestamp' => 1518097706,
+    'checksum' => 'a8a182d897481b7dfec4877a026a60f9',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1515670578
+                'modified' => 1518097650
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,7 +23,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1518092052
+                'modified' => 1518097523
             ],
             'themes/quark' => [
                 'file' => 'user/config/themes/quark.yaml',
@@ -522,7 +522,7 @@ return [
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Hugh Dawson',
-                'email' => 'joe@test.com'
+                'email' => 'hugh@tomorrowsnewspapers.com'
             ],
             'taxonomies' => [
                 0 => 'category',
@@ -534,7 +534,7 @@ return [
             'summary' => [
                 'enabled' => true,
                 'format' => 'short',
-                'size' => 100,
+                'size' => 250,
                 'delimiter' => '==='
             ],
             'redirects' => NULL,

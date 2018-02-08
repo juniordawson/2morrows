@@ -83,56 +83,56 @@ class __TwigTemplate_7d3b40dfe76ff683af3b9bb211f99409c035425388e07f6e6a7cdb785d6
         echo "
                 </div>
 
-<div class=\" listing-container\">
+\t\t\t<div class=\" listing-container\">
 
-    ";
+\t\t\t\t";
         // line 39
         if (twig_length_filter($this->env, ($context["art_collections"] ?? null))) {
             // line 40
-            echo "        <h2 class=\"ml-colpad mr-colpad bdt-1 mt-05 mb-05 pt-05 \">Articles</h2>
-    ";
+            echo "\t\t\t\t\t<h2 class=\"ml-colpad mr-colpad bdt-1 mt-05 mb-05 pt-05 \">Articles</h2>
+\t\t\t\t";
         }
         // line 42
-        echo "    
-    ";
+        echo "\t
+\t\t\t\t";
         // line 43
         $context['_parent'] = $context;
         $context['_seq'] = twig_ensure_traversable(($context["art_collections"] ?? null));
         foreach ($context['_seq'] as $context["_key"] => $context["p"]) {
             // line 44
             echo "
-        <div class=\"column-33 listing\">
-            <a href=\"";
+\t\t\t\t\t<div class=\"column-33 listing\">
+\t\t\t\t\t\t<a href=\"";
             // line 46
             echo $this->getAttribute($context["p"], "url", array());
             echo "\" class=\"listing-img-link\">
-                ";
+\t\t\t\t\t\t\t";
             // line 47
             $context["listImg"] = $this->getAttribute($this->getAttribute($context["p"], "media", array()), "images", array());
             // line 48
-            echo "                ";
+            echo "\t\t\t\t\t\t\t";
             if ((($context["listImg"] ?? null) == false)) {
                 // line 49
-                echo "                    <img src=\"/user/pages/images/default-img.gif\" />
-                ";
+                echo "\t\t\t\t\t\t\t\t<img src=\"/user/pages/images/default-img.gif\" />
+\t\t\t\t\t\t\t";
             } else {
                 // line 51
-                echo "                    ";
+                echo "\t\t\t\t\t\t\t\t";
                 echo twig_first($this->env, $this->getAttribute($this->getAttribute($context["p"], "media", array()), "images", array()));
                 echo "
-                ";
+\t\t\t\t\t\t\t";
             }
             // line 53
-            echo "            </a>
+            echo "\t\t\t\t\t\t</a>
 
-            <h3 class=\"mt-025\"><a href=\"";
+\t\t\t\t\t\t<h3 class=\"mt-025\"><a href=\"";
             // line 55
             echo $this->getAttribute($context["p"], "url", array());
             echo "\">";
             echo $this->getAttribute($context["p"], "title", array());
             echo "</a></h3>
-        </div>
-    ";
+\t\t\t\t\t</div>
+\t\t\t\t";
         }
         $_parent = $context['_parent'];
         unset($context['_seq'], $context['_iterated'], $context['_key'], $context['p'], $context['_parent'], $context['loop']);
@@ -140,7 +140,7 @@ class __TwigTemplate_7d3b40dfe76ff683af3b9bb211f99409c035425388e07f6e6a7cdb785d6
         // line 57
         echo "   
 
-</div>    
+\t\t\t</div>    
 
 
 
@@ -280,29 +280,29 @@ class __TwigTemplate_7d3b40dfe76ff683af3b9bb211f99409c035425388e07f6e6a7cdb785d6
                     {{page.content}}
                 </div>
 
-<div class=\" listing-container\">
+\t\t\t<div class=\" listing-container\">
 
-    {% if art_collections | length %}
-        <h2 class=\"ml-colpad mr-colpad bdt-1 mt-05 mb-05 pt-05 \">Articles</h2>
-    {% endif %}
-    
-    {% for p in art_collections %}
+\t\t\t\t{% if art_collections | length %}
+\t\t\t\t\t<h2 class=\"ml-colpad mr-colpad bdt-1 mt-05 mb-05 pt-05 \">Articles</h2>
+\t\t\t\t{% endif %}
+\t
+\t\t\t\t{% for p in art_collections %}
 
-        <div class=\"column-33 listing\">
-            <a href=\"{{p.url}}\" class=\"listing-img-link\">
-                {% set listImg = p.media.images %}
-                {% if listImg == false %}
-                    <img src=\"/user/pages/images/default-img.gif\" />
-                {% else %}
-                    {{p.media.images|first}}
-                {% endif %}
-            </a>
+\t\t\t\t\t<div class=\"column-33 listing\">
+\t\t\t\t\t\t<a href=\"{{p.url}}\" class=\"listing-img-link\">
+\t\t\t\t\t\t\t{% set listImg = p.media.images %}
+\t\t\t\t\t\t\t{% if listImg == false %}
+\t\t\t\t\t\t\t\t<img src=\"/user/pages/images/default-img.gif\" />
+\t\t\t\t\t\t\t{% else %}
+\t\t\t\t\t\t\t\t{{p.media.images|first}}
+\t\t\t\t\t\t\t{% endif %}
+\t\t\t\t\t\t</a>
 
-            <h3 class=\"mt-025\"><a href=\"{{p.url}}\">{{p.title}}</a></h3>
-        </div>
-    {% endfor %}   
+\t\t\t\t\t\t<h3 class=\"mt-025\"><a href=\"{{p.url}}\">{{p.title}}</a></h3>
+\t\t\t\t\t</div>
+\t\t\t\t{% endfor %}   
 
-</div>    
+\t\t\t</div>    
 
 
 

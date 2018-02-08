@@ -2,7 +2,7 @@ title: 'Tomorrow''s newspapers'
 default_lang: en
 author:
   name: 'Hugh Dawson'
-  email: joe@test.com
+  email: hugh@tomorrowsnewspapers.com
 taxonomies:
   - category
   - tag
@@ -11,7 +11,7 @@ metadata:
 summary:
   enabled: true
   format: short
-  size: 100
+  size: 250
   delimiter: '==='
 blog:
   route: /blog

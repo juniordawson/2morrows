@@ -3,7 +3,7 @@ img { max-width: 100%; }
 .ta-c { text-align: center; }
 
 .listing {
-
+  overflow: auto;
 }
 
 .listing h3 {

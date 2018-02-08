@@ -1,9 +1,9 @@
 {% extends "partials/base.html.twig" %}
 
-{% set default_collection = page.collection.ofType('item') %}
+    {% set default_collection = page.collection.ofType('item') %}
 
 
-{% set options = { items: {'@self.children': '/'}, 'limit': 50, 'order': {'by': 'date', 'dir': 'desc'}, 'pagination': true } %}
+{% set options = { items: {'@self.children': '/'}, 'limit': 5, 'order': {'by': 'date', 'dir': 'desc'}, 'pagination': true } %}
 {% set art_collections = page.collection(options).ofType('item') %}
 
 {% set fold_collections = page.collection(options).ofType('folder') %}
@@ -34,29 +34,29 @@
                     {{page.content}}
                 </div>
 
-				<div class=" listing-container">
+			<div class=" listing-container">
 
-					{% if art_collections | length %}
-						<h2 class="ml-colpad mr-colpad bdt-1 mt-05 mb-05 pt-05 ">Articles</h2>
-					{% endif %}
+				{% if art_collections | length %}
+					<h2 class="ml-colpad mr-colpad bdt-1 mt-05 mb-05 pt-05 ">Articles</h2>
+				{% endif %}
 	
-					{% for p in art_collections %}
+				{% for p in art_collections %}
 
-						<div class="column-33 listing">
-							<a href="{{p.url}}" class="listing-img-link">
-								{% set listImg = p.media.images %}
-								{% if listImg == false %}
-									<img src="/user/pages/images/default-img.gif" />
-								{% else %}
-									{{p.media.images|first}}
-								{% endif %}
-							</a>
+					<div class="column-33 listing">
+						<a href="{{p.url}}" class="listing-img-link">
+							{% set listImg = p.media.images %}
+							{% if listImg == false %}
+								<img src="/user/pages/images/default-img.gif" />
+							{% else %}
+								{{p.media.images|first}}
+							{% endif %}
+						</a>
 
-							<h3 class="mt-025"><a href="{{p.url}}">{{p.title}}</a></h3>
-						</div>
-					{% endfor %}   
+						<h3 class="mt-025"><a href="{{p.url}}">{{p.title}}</a></h3>
+					</div>
+				{% endfor %}   
 
-				</div>    
+			</div>    
 
 
 

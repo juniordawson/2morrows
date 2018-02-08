@@ -2,13 +2,13 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Steven/Documents/Web/WordPress-sites/grav-admin/user/config/site.yaml',
-    'modified' => 1515670578,
+    'modified' => 1518097650,
     'data' => [
         'title' => 'Tomorrow\'s newspapers',
         'default_lang' => 'en',
         'author' => [
             'name' => 'Hugh Dawson',
-            'email' => 'joe@test.com'
+            'email' => 'hugh@tomorrowsnewspapers.com'
         ],
         'taxonomies' => [
             0 => 'category',
@@ -20,7 +20,7 @@ return [
         'summary' => [
             'enabled' => true,
             'format' => 'short',
-            'size' => 100,
+            'size' => 250,
             'delimiter' => '==='
         ],
         'blog' => [
