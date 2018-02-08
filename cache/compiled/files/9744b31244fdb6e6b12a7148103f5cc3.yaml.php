@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Steven/Documents/Web/WordPress-sites/grav-admin/user/config/system.yaml',
-    'modified' => 1518003374,
+    'modified' => 1518092052,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',

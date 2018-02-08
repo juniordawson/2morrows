@@ -1,44 +1,22 @@
 {% extends "partials/base.html.twig" %}
 
-    {% set folders_collection = page.collection('folders') %}
-    
-
     {% block content %}
-
-                {% for page in folders_collection %}
-
-                    <h3><a href="{{page.url}}">{{page.title}}</a></h3>
-
-            {% endfor %}
-
-        <header class="text-center content-section background-img colored-background" style="background-image:url({{hero_image.url}})">
-            <div class="small-container">
-                <h1>
-                    {% set parentTitle = page.parent.parent.title %}
-                    {% if parentTitle == "Pages" %}
-                    {% else %}
-                        <a href="{{page.parent.parent.url}}">{{page.parent.parent.title}}</a> / 
-                    {% endif %}
-                        <a href="{{page.parent.url}}">{{page.parent.title}}</a>
-                </h1>
-            </div>
-        </header>
-
         <article class="content-section">
             <div class="small-container padding-bottom">
 
-                <div class="row text-center padding-bottom">
-                    <div class="small-100">
-                        <h1 class="no-margin-bottom">{{page.title}}</h1>
-                        <cite>{{page.date | date("M d, Y")}}</cite>
-                    </div>
+            <div class="row text-center padding-bottom">
+                <div class="small-100">
+                    {{page.media.images|first}}
+                    <h1 class="no-margin-bottom">{{page.title}}</h1>
+                    <cite>{{page.date | date("M d, Y")}}</cite>
                 </div>
+            </div>
 
-                <div class="row">
-                    <div class="small-100">
-                        {{page.content}}
-                    </div>
+            <div class="row">
+                <div class="small-100">
+                    {{page.content}}
                 </div>
+            </div>
 
             </div>
         </article>
