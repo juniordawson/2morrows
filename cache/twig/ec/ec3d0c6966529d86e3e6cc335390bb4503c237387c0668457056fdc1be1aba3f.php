@@ -134,7 +134,7 @@ class __TwigTemplate_afea790c8c2e645ebe33ed5afd4ae98443db4a16a4b03a380047b9a6927
             echo "</a></h2>
 \t\t\t\t\t\t <cite>";
             // line 56
-            echo twig_date_format_filter($this->env, $this->getAttribute(($context["page"] ?? null), "date", array()), "M d, Y");
+            echo twig_date_format_filter($this->env, $this->getAttribute($context["p"], "date", array()), "M d, Y");
             echo "</cite>
 \t\t\t\t\t\t<p>";
             // line 57
@@ -249,7 +249,7 @@ class __TwigTemplate_afea790c8c2e645ebe33ed5afd4ae98443db4a16a4b03a380047b9a6927
 \t\t\t\t\t\t\t
 
 \t\t\t\t\t\t<h2 class=\"mt-025 mb-0\"><a href=\"{{p.url}}\">{{p.title}}</a></h2>
-\t\t\t\t\t\t <cite>{{page.date | date(\"M d, Y\")}}</cite>
+\t\t\t\t\t\t <cite>{{p.date | date(\"M d, Y\")}}</cite>
 \t\t\t\t\t\t<p>{{p.summary}}</h3>
 \t\t\t\t\t\t
 \t\t\t\t\t</div>

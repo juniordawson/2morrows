@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => '/Users/Steven/Documents/Web/WordPress-sites/grav-admin/user/config/site.yaml',
-    'modified' => 1518097650,
+    'modified' => 1518102047,
     'data' => [
         'title' => 'Tomorrow\'s newspapers',
         'default_lang' => 'en',
@@ -23,6 +23,7 @@ return [
             'size' => 250,
             'delimiter' => '==='
         ],
+        'publish_dates' => true,
         'blog' => [
             'route' => '/blog'
         ]

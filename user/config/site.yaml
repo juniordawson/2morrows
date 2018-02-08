@@ -13,5 +13,6 @@ summary:
   format: short
   size: 250
   delimiter: '==='
+publish_dates: true
 blog:
   route: /blog

@@ -1,5 +1,6 @@
 ---
 title: 'post 1'
+date: '01-12-2017 15:02'
 ---
 
 We have sold our car. We simply were not using it enough.

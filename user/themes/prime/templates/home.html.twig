@@ -1,6 +1,7 @@
 {% extends "partials/base.html.twig" %}
 
-    {% set default_collection = page.collection.visible %}
+
+    {% set default_collection = page.collection.visible.ofType('folder') %}
 
     {% set hero_image = page.media.images|first %}
 
